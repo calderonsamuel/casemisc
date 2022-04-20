@@ -10,8 +10,8 @@
 #' @export
 #'
 #' @examples
-#' git_add_and_commit_all("first")
-#' git_add_and_commit_all("update", author = "Otro autor")
+#' #git_add_and_push_all("first")
+#' #git_add_and_push_all("update", author = "Otro autor")
 git_add_and_push_all <- function(message = NULL, author = NULL) {
 
     if (!is.character(message)) stop("Se necesita un texto de mensaje")

@@ -19,6 +19,6 @@ Para uso interactivo. Hace add a todos los archivos nuevos y modificados, luego 
 Es una versión menos segura que gert::git_commit_all().
 }
 \examples{
-git_add_and_commit_all("first")
-git_add_and_commit_all("update", author = "Otro autor")
+#git_add_and_push_all("first")
+#git_add_and_push_all("update", author = "Otro autor")
 }
