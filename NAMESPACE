@@ -3,4 +3,5 @@
 export(add_row_numbers)
 export(git_add_and_push_all)
 export(reference_pptx)
+export(replace_null)
 export(str_limpiar)
