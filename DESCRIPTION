@@ -4,15 +4,18 @@ Version: 0.0.0.9000
 Authors@R: 
     person("Samuel", "Calderon", , "samuel.calderon@uarm.pe", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-6847-1210"))
-Description: Funciones diversas recurrentemente usadas por Samuel Calderon.
+Description: Funciones diversas recurrentemente usadas por Samuel
+    Calderon.
 License: MIT + file LICENSE
+Imports: 
+    gert,
+    gh,
+    here,
+    stringi,
+    stringr
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
-Imports: 
-    gert,
-    stringi,
-    stringr
+RoxygenNote: 7.2.0
