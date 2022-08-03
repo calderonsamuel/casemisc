@@ -6,8 +6,8 @@ gh_repos_issues <- function(owner = "calderonsamuel", repo = ".", state = "open"
         owner = owner,
         repo = repo,
         state = match.arg(state, c("open", "closed", "all"))
-    )
+    )|>
+        jsonlite::toJSON() |>
+        jsonlite::fromJSON(flatten = TRUE)
 }
-
-
 
