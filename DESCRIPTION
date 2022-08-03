@@ -11,6 +11,7 @@ Imports:
     gert,
     gh,
     here,
+    jsonlite,
     stringi,
     stringr
 Suggests: 
